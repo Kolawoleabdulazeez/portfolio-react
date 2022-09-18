@@ -1,0 +1,19 @@
+.port-image{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.social-icon{
+    display: flex;
+    justify-content:flex-end;
+    margin-right: 60px;
+}
+#twitter, #linkedln{
+    width: 40px;
+    padding: 5px;
+}
+@media (max-width: 769px){
+    .port-image{
+        margin-top: 200px;
+    }
+}

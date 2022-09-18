@@ -1,0 +1,55 @@
+.section-testimonies{
+    min-height: 70vh;
+    display: flex;
+}
+
+.testimonies-left{
+    background: #1F49C6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    width: 40%;
+    color: white;
+}
+.testimonies-right{
+    min-height: 70vh;
+    width: 60%;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+}
+#testimonies-1{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+#testimonies-1 p{
+    width: 80%;
+    margin: 5px auto;
+}
+
+@media(max-width:426px){
+    .section-testimonies{
+        flex-direction: column;
+    }
+    .testimonies-left, .testimonies-right{
+        width: 100%;
+    }
+    #testimonies-1{
+        margin-bottom: 20px;
+    }
+    
+}
+@media(max-width:769px){
+    .section-testimonies{
+        flex-direction: column;
+    }
+    .testimonies-left, .testimonies-right{
+        width: 100%;
+    }
+    #testimonies-1{
+        margin-bottom: 20px;
+    }
+    
+}

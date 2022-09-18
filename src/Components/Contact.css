@@ -1,0 +1,75 @@
+.contact-section{
+    display: flex;
+    min-height: 70vh;
+}
+#contact-left{
+    width: 60%;
+}
+#contact-right{
+    width: 40%;
+}
+#contact-left{
+    padding: 100px 50px;
+}
+
+#contact-left h1{
+    margin-bottom: 10px;
+}
+.contact-head{
+    margin-bottom: 7px;
+}
+#contact-info,#info-1,#info-2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#info-detail{
+    margin-left: 10px;
+}
+#contact-info h5{
+    margin-left: 15px;
+}
+#contact-right{
+    background: rgba(28, 65, 176, 1);
+    padding: 80px;
+    color: white;
+}
+
+.input-info{
+    margin-top: 15px;
+}
+#contact-right input{
+    background: none;
+    border: 0;
+    border-bottom: 1px solid white;
+    width: 60%;
+    margin-bottom: 10px;
+}
+#btn{
+    padding: 10px;
+    background: white;
+    color: rgba(28, 65, 176, 1);
+    border: 0;
+    border-radius: 5px;
+    margin-top: 6px;
+}
+@media (max-width: 426px){
+    .contact-section{
+        flex-direction: column;
+    }
+    #contact-left, #contact-right{
+        width: 100%;
+    }
+    #contact-right input{
+        width: 100%;    
+    }
+}
+@media(max-width:769px){
+    .contact-section{
+        flex-direction: column;
+    }
+    #contact-left, #contact-right{
+        width: 100%;
+    }
+}

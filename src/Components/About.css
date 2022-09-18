@@ -1,0 +1,24 @@
+.section2{
+    background: #F6F8FE;
+    padding: 25px;
+    text-align: center;
+    align-items: center;
+}
+
+.section2 #about-p{
+    width: 30%;
+    line-height: 25px;
+    margin: 10px auto;
+}
+
+@media (max-width: 426px){
+    .section2 #about-p{
+        width: 100%;
+    }
+}
+@media (max-width: 769px){
+    .section2 #about-p{
+        width: 70%;
+    }
+}
+

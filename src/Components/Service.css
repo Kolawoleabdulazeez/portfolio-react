@@ -1,0 +1,35 @@
+.sectionService{
+    background: #FBFCFE;
+    padding: 50px;
+}
+
+.service-header{
+    margin-bottom: 20px;
+}
+.service-header p{
+    width: 35%;
+    margin-top: 15px;
+}
+#service-box h4{
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+#service-box{
+    width: 30%;
+}
+.row{
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+@media (max-width:426px){
+    .service-header p, #service-box{
+        width: 100%;
+    }
+
+    #service-box, .row{
+        margin-bottom: 20px;
+    }
+    
+}
