@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.a5a977c0.css",
+    "main.js": "/portfolio-react/static/js/main.c7b828a2.js",
+    "static/media/Seyi.png": "/portfolio-react/static/media/Seyi.4c96af0d6654044c7665.png",
+    "static/media/Seyii.png": "/portfolio-react/static/media/Seyii.bd81163fcec0dfea5316.png",
+    "index.html": "/portfolio-react/index.html",
+    "static/media/Hamburger.svg": "/portfolio-react/static/media/Hamburger.f98b98b4905b36b844a65327ecaadc32.svg",
+    "main.a5a977c0.css.map": "/portfolio-react/static/css/main.a5a977c0.css.map",
+    "main.c7b828a2.js.map": "/portfolio-react/static/js/main.c7b828a2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5a977c0.css",
+    "static/js/main.c7b828a2.js"
+  ]
+}
